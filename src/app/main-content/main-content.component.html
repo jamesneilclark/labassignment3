@@ -1,0 +1,19 @@
+<button (click)="addStudent()" class="add-button">Add Student</button>
+<table class="table-one">
+        <thead>
+          <tr>
+            <td>ID:</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Courses</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+              <td>{{student.ID}}</td>
+              <td>{{student.firstName}}</td>
+              <td>{{student.lastName}}</td>
+              <td>{{student.course}}</td>
+          </tr>
+        </tbody>
+      </table>

@@ -1,0 +1,24 @@
+.row-one,
+.row-two,
+.row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+
+}
+    .row-two {
+        background-color: #62FF33;
+    }
+
+    .container-padding {
+        margin: 12px;
+        border: 1px dashed orangered;
+    }
+    .main-container {
+        display: grid;
+        height: 100%;
+        grid-template-rows: 2fr 12fr 2fr;
+    
+    }
+
+
+
